@@ -10,10 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
-    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
@@ -54,19 +51,15 @@
       <!-- Hero -->
       <section class="hero">
         <div class="container">
-          <div class="hero-padding">
             <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
             <button class="hero-btn-title" type="button">Замовити послугу</button>
-          </div>
-         
-          
         </div>
         <!-- <a href="">Замовити послугу</a> -->
       </section>
-      <section>
+      <section class="section">
         <!-- web studio features -->
         <!-- h2 hidden -->
-        <div class="section container">
+        <div class="container">
         <h2 class="hidden">Особливості</h2>
           <ul class="features list">
             <li class="features-list">
@@ -101,9 +94,9 @@
         
       </section>
       <!-- services -->
-      <section>
-        <div class="container section">
-          <h2 class="service-title">Чим ми займаємося</h2>
+      <section class="section">
+        <div class="container">
+          <h2 class="title">Чим ми займаємося</h2>
           <ul class="service-list list">
             <li>
               <img
@@ -134,54 +127,64 @@
         
       </section>
       <!-- our team -->
-      <section class="team container">
-        <h2 class="team-title">Наша команда</h2>
-        <ul class="team-list list">
-          <li>
-            <img class="team-img-shadow"
-              src="./images/igor.jpg"
-              alt="Ігор Дем'яненко"
-              width="270"
-              height="260"
-            />
-            <p class="team-member">Ігор Дем'яненко</p>
-            <p class="team-spec" lang="en">Product Designer</p>
-          </li>
-          <li>
-            <img
-              src="./images/olga.jpg"
-              alt="Ольга Рєпіна"
-              width="270"
-              height="260"
-            />
-            <p class="team-member">Ольга Рєпіна</p>
-            <p class="team-spec" lang="en">Frontend Developer</p>
-          </li>
-          <li>
-            <img
-              src="./images/nikolay.jpg"
-              alt="Микола Тарасов"
-              width="270"
-              height="260"
-            />
-            <p class="team-member">Микола Тарасов</p>
-            <p class="team-spec" lang="en">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/mihail.jpg"
-              alt="Михайло Єрмаков"
-              width="270"
-              height="260"
-            />
-            <p class="team-member">Михайло Єрмаков</p>
-            <p class="team-spec" lang="en">UI Designer</p>
-          </li>
-        </ul>
+      <section class="team section">
+        <div class="container">
+          <h2 class="team-title">Наша команда</h2>
+          <ul class="team-list list">
+            <li>
+              <img
+                src="./images/igor.jpg"
+                alt="Ігор Дем'яненко"
+                width="270"
+                height="260"
+              />
+              <div class="team-item">
+                <h3 class="team-member">Ігор Дем'яненко</h3>
+                <p class="team-spec" lang="en">Product Designer</p>
+              </div>
+            </li>
+            <li>
+              <img
+                src="./images/olga.jpg"
+                alt="Ольга Рєпіна"
+                width="270"
+                height="260"
+              />
+              <div class="team-item">
+                <h3 class="team-member">Ольга Рєпіна</h3>
+                <p class="team-spec" lang="en">Frontend Developer</p>
+              </div>
+            </li>
+            <li>
+              <img
+                src="./images/nikolay.jpg"
+                alt="Микола Тарасов"
+                width="270"
+                height="260"
+              />
+              <div class="team-item">
+                <h3 class="team-member">Микола Тарасов</h3>
+                <p class="team-spec" lang="en">Marketing</p>
+              </div>
+            </li>
+            <li>
+              <img
+                src="./images/mihail.jpg"
+                alt="Михайло Єрмаков"
+                width="270"
+                height="260"
+              />
+              <div class="team-item">
+                <h3 class="team-member">Михайло Єрмаков</h3>
+                <p class="team-spec" lang="en">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="container footer-padding">
+      <div class="container">
         <a class="logo-footer link" href="#"
         ><span class="logo-accent">Web</span>Studio</a
       >
@@ -189,12 +192,12 @@
         <ul class="address-footer-list list">
           <li><p class="footer-street">м. Київ, пр-т Лесі Українки, 26</p></li>
           <li>
-            <a class="mail-link-footer link" href="mailto:info@devstudio.com"
+            <a class="contact-footer link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="tel-link-footer link" href="tel:+380961111111"
+            <a class="contact-footer link" href="tel:+380961111111"
               >+38 096 111 11 11</a
             >
           </li>
