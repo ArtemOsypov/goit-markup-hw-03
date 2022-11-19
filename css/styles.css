@@ -352,7 +352,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.address-footer-list > li {
+.address-footer-list > li:not(:last-child) {
   margin-bottom: 6px;
 }
 
