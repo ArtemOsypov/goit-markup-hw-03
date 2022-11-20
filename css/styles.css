@@ -78,6 +78,10 @@ body {
   padding-bottom: 94px;
 }
 
+.section.about {
+  padding-top: 0;
+}
+
 /* LOGO */
 
 .logo {
@@ -231,8 +235,8 @@ body {
   gap: 30px;
 }
 
-.section.about {
-  padding-top: 0;
+.features-list {
+  flex-basis: calc((100% - 90px) / 4);
 }
 
 .features-item {
@@ -259,7 +263,6 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-title);
-  background-color: var(--background-color);
 }
 
 .service-list {
@@ -281,18 +284,10 @@ body {
 }
 
 .team-list > li {
+  flex-basis: calc((100% - 90px) / 4);
   background-color: var(--background-color);
 }
 
-.team-title {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--color-title);
-}
 .team-member {
   margin-bottom: 10px;
   font-weight: 500;
@@ -326,6 +321,7 @@ body {
 .logo-footer {
   margin-bottom: 20px;
 
+  display: inline-block;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;

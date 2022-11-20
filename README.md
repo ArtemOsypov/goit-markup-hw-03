@@ -23,3 +23,10 @@ DONE == .visually-hidden {
     clip-path: inset(50%);
     margin: -1px;
 }
+
+DONE == у .logo-footer  треба прописати display: inline-block; щоб спрацював маржин
+DONE == у заголовку "Наша команда " має бути клас title , щоб було <h2 class="title">Наша команда </h2>
+DONE == до секції Чим ми займаємося  треба додати ще один клас, наприклад about , і буде <section class="about section">. Через цей клас треба обнулити верхній паддінг, тож у стилях має бути .section.about {padding-top:0;}   --- не виконано
+DONE == зроби таку структуру у сторінці з портфоліо https://prnt.sc/LtV0oVRtE5MF
+DONE == до features-list  та .team-list > li  треба прописати формулу  flex-basis: calc((100% - 90px) / DONE == 4);  - пояснення чому така формула https://prnt.sc/IotJsx8qkEeh 
+DONE == пропиши  rel="stylesheet" там, да підключаєш modern-normalize https://prnt.sc/TLx5I_JujB30
